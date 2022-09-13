@@ -1,0 +1,12 @@
+body {
+	background-color: crimson;
+}
+h1 {
+	color: salmon;
+	text-align: center;
+}
+
+#demo {
+	font-family: cursive;
+	font-size: 35px;
+}

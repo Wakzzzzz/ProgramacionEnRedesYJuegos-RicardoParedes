@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="../JS/Code.js"></script>
+	<link rel="stylesheet" href="CSS/Estilo.css">
+</head>
+
+<body>
+
+<h1>Wakz HTML</h1>
+
+<form action="PHP/Database.php" method="post">
+Id: <input type="text" name="id"><br>
+Name: <input type="text" name="nombre"><br>
+Score: <input type="text" name="puntuacion"><br>
+Level: <input type="text" name="nivel"><br>
+<input type="submit">
+</form>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+<input type="button" onclick="saludo()" value="Click Me!">
+
+<h3>What Can JavaScript Do?</h3>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+
+
+
+</body>
+</html> 
